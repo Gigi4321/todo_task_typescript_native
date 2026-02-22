@@ -1,10 +1,10 @@
-# Kanban Board - Task Manager
+Kanban Board - Task Manager
 
 A modern, responsive Kanban board application for managing tasks efficiently. Organize your work into three columns: **To Do**, **In Progress**, and **Completed**. Built with TypeScript, Tailwind CSS, and Font Awesome icons.
 
-## Features
+Features
 
-✨ **Task Management**
+✨Task Management
 
 - Create new tasks with title and description
 - Organize tasks across three status columns (To Do, In Progress, Completed)
@@ -13,7 +13,7 @@ A modern, responsive Kanban board application for managing tasks efficiently. Or
 - Edit existing tasks
 - Delete tasks
 
-🎨 **User Experience**
+🎨 User Experience
 
 - Clean and modern UI with Tailwind CSS
 - Responsive design that works on desktop and mobile
@@ -21,20 +21,20 @@ A modern, responsive Kanban board application for managing tasks efficiently. Or
 - Task counters for each column
 - Gradient navbar with intuitive navigation
 
-💾 **Data Persistence**
+💾 Data Persistence
 
 - Automatic saving to browser's local storage
 - Tasks persist between sessions
 - No server required
 
-## Tech Stack
+Tech Stack
 
 - **Frontend**: HTML5, TypeScript, Tailwind CSS
 - **Icons**: Font Awesome 6.5.1
 - **Storage**: Browser LocalStorage
 - **Build**: TypeScript Compiler
 
-## Getting Started
+Getting Started
 
 1. Open `index.html` in your web browser
 2. Click the **+** button in the navbar to add a new task
@@ -44,7 +44,7 @@ A modern, responsive Kanban board application for managing tasks efficiently. Or
 6. Click **Edit** to modify existing tasks
 7. Click **Delete** to remove tasks
 
-## Project Structure
+Project Structure
 
 ```
 ├── index.html          # Main HTML template
@@ -55,25 +55,4 @@ A modern, responsive Kanban board application for managing tasks efficiently. Or
 └── readme             # This file
 ```
 
-## Task Properties
-
-Each task includes:
-
-- **Title**: Task name
-- **Description**: Detailed task information
-- **Priority**: 0 (Low), 1 (Medium), 2 (High)
-- **Due Date**: Target completion date
-- **Status**: Todo, In Progress, or Completed
-- **Created At**: Task creation timestamp
-
-## Browser Compatibility
-
-Works with all modern browsers that support:
-
-- ES6+ JavaScript
-- LocalStorage API
-- CSS Grid & Flexbox
-
-## License
-
-Free to use and modify for personal or commercial projects.
+live demo : https://github.com/Gigi4321/todo_task_typescript_native.git
