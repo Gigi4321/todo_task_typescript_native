@@ -65,16 +65,4 @@ If you want to modify the TypeScript code:
 - Drag and drop tasks between columns (To Do, In Progress, Completed) - Note: Drag and drop functionality may need to be implemented based on your browser's capabilities.
 - Tasks are automatically saved to local storage.
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Screenshots
-
-![Kanban Board](images/screenshot.png)
-
-*Add screenshots to the `images/` folder to showcase the application.*
