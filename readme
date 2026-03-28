@@ -1,58 +1,69 @@
-Kanban Board - Task Manager
+# Kanban Board Task Manager
 
-A modern, responsive Kanban board application for managing tasks efficiently. Organize your work into three columns: **To Do**, **In Progress**, and **Completed**. Built with TypeScript, Tailwind CSS, and Font Awesome icons.
+A simple, native web-based Kanban board for managing tasks. Built with TypeScript, HTML, and Tailwind CSS, featuring local storage for persistence.
 
-Features
+## Features
 
-✨Task Management
+- **Task Management**: Add, edit, and delete tasks
+- **Kanban Columns**: Organize tasks into To Do, In Progress, and Completed
+- **Priorities**: Set task priorities (Low, Medium, High)
+- **Due Dates**: Assign due dates to tasks
+- **Local Storage**: Tasks are saved locally in your browser
+- **Responsive Design**: Works on desktop and mobile devices
 
-- Create new tasks with title and description
-- Organize tasks across three status columns (To Do, In Progress, Completed)
-- Set priority levels for each task (Low, Medium, High)
-- Add due dates to tasks
-- Edit existing tasks
-- Delete tasks
+## Technologies Used
 
-🎨 User Experience
+- **TypeScript**: For type-safe JavaScript
+- **HTML5**: Structure and markup
+- **Tailwind CSS**: Utility-first CSS framework
+- **FontAwesome**: Icons
+- **Local Storage**: Client-side data persistence
 
-- Clean and modern UI with Tailwind CSS
-- Responsive design that works on desktop and mobile
-- Icon-rich interface using Font Awesome
-- Task counters for each column
-- Gradient navbar with intuitive navigation
+## Getting Started
 
-💾 Data Persistence
+### Prerequisites
 
-- Automatic saving to browser's local storage
-- Tasks persist between sessions
-- No server required
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- No server required - runs entirely in the browser
 
-Tech Stack
+### Installation
 
-- **Frontend**: HTML5, TypeScript, Tailwind CSS
-- **Icons**: Font Awesome 6.5.1
-- **Storage**: Browser LocalStorage
-- **Build**: TypeScript Compiler
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/kanban-board-task-manager.git
+   ```
 
-Getting Started
+2. Navigate to the project directory:
+   ```bash
+   cd kanban-board-task-manager
+   ```
 
-1. Open `index.html` in your web browser
-2. Click the **+** button in the navbar to add a new task
-3. Fill in the task details (title, description, priority, due date)
-4. Click **Submit** to create the task
-5. Drag tasks between columns or use the status dropdown to change their status
-6. Click **Edit** to modify existing tasks
-7. Click **Delete** to remove tasks
+3. Open `index.html` in your web browser.
 
-Project Structure
+### Building from Source
 
-```
-├── index.html          # Main HTML template
-├── index.ts           # TypeScript logic (compiles to index.js)
-├── index.js           # Compiled JavaScript
-├── tsconfig.json      # TypeScript configuration
-├── images/            # Project assets (logo, icons)
-└── readme             # This file
-```
+If you want to modify the TypeScript code:
 
-live demo : https://github.com/Gigi4321/todo_task_typescript_native.git
+1. Ensure you have Node.js and npm installed.
+
+2. Install TypeScript globally (if not already installed):
+   ```bash
+   npm install -g typescript
+   ```
+
+3. Compile the TypeScript to JavaScript:
+   ```bash
+   tsc
+   ```
+
+4. Open `index.html` in your browser.
+
+## Usage
+
+- Click the "+" button in the navbar to add a new task.
+- Fill in the task details in the modal and submit.
+- Drag and drop tasks between columns (To Do, In Progress, Completed) - Note: Drag and drop functionality may need to be implemented based on your browser's capabilities.
+- Tasks are automatically saved to local storage.
+
+
+*Add screenshots to the `images/` folder to showcase the application.*
